@@ -21,7 +21,7 @@ Serial_Printf("Rps: %.2f\n", Rps); //串口输出转速，换行打印
 if (Rps > 3.1) Speed--;
 if (Rps < 2.9) Speed++;
 #### PID
-float Err=0, LastErr=0, NextErr=0, Add=0, Kp=20, Ki=0.5, Kd=0, POut=0, IOut=0, DOut;
+`float Err=0, LastErr=0, NextErr=0, Add=0, Kp=20, Ki=0.5, Kd=0, POut=0, IOut=0, DOut;
 int8_t TotalOut=0;
 
 float PID(float Rps, float Target)
@@ -33,7 +33,7 @@ float PID(float Rps, float Target)
 	TotalOut = (int8_t)(POut + IOut + DOut);
 	LastErr = Err;
 	return TotalOut;
-}
+}`
 
 ## 3 定时器表资源表：STM32F103C8T6定时器资源：TIM1,TIM2,TIM3,TIM4
 	功能	  定时器	 类型
