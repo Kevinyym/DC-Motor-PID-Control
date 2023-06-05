@@ -50,10 +50,11 @@ float PID(float Rps, float Target)
 ```
 ## 4 接线框图
 - [x] Block Diagram
-- [ ] STM32F103C8T6
-- [ ] 面包板
-- [ ] LCD显示屏
-- [ ] TB6612FNG驱动芯片
+- [x] STM32F103C8T6
+- [x] 面包板
+- [x] LCD显示屏
+- [x] TB6612FNG驱动芯片
+- [x] TT马达（额定DC 6V，但为了简化电路，从ST-Link直接取5V电）
 
 ![截屏2023-05-25 下午9 26 11](https://github.com/Kevinyym/DC-Motor-PID-Control/assets/101639215/70501e9c-0ded-49f7-b84e-91fe3f6ec45b)
 
