@@ -49,10 +49,7 @@ float PID(float Rps, float Target)
 	Timer	    TIM4    通用定时器	
 ```
 ## 4 接线框图
-- [x] Block Diagram
 - [x] STM32F103C8T6
-- [x] 面包板
-- [x] LCD显示屏
 - [x] TB6612FNG驱动芯片
 - [x] TT马达（额定DC 6V，但为了简化电路，从ST-Link直接取5V电）
 
