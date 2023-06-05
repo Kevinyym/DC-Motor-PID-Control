@@ -48,6 +48,13 @@ float PID(float Rps, float Target)
 	Encoder	    TIM3    通用定时器	
 	Timer	    TIM4    通用定时器	
 ```
+## 4 接线框图
+- [x] Block Diagram
+- [ ] STM32F103C8T6
+- [ ] 面包板
+- [ ] LCD显示屏
+- [ ] TB6612FNG驱动芯片
+
 ![截屏2023-05-25 下午9 26 11](https://github.com/Kevinyym/DC-Motor-PID-Control/assets/101639215/70501e9c-0ded-49f7-b84e-91fe3f6ec45b)
 
 ![截屏2023-05-25 下午9 29 18](https://github.com/Kevinyym/DC-Motor-PID-Control/assets/101639215/1a99db1c-61d8-4b7c-859d-89d0d5e69765)
