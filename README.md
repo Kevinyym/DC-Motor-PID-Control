@@ -74,4 +74,5 @@ float PID(float Rps, float Target)
 ![image](https://github.com/Kevinyym/DC-Motor-PID-Control/assets/101639215/30595a67-bdff-41ef-acb6-9667f9e5d8d1)
 ![截屏2023-05-25 下午9 29 18](https://github.com/Kevinyym/DC-Motor-PID-Control/assets/101639215/1a99db1c-61d8-4b7c-859d-89d0d5e69765)
 ![image](https://github.com/Kevinyym/DC-Motor-PID-Control/assets/101639215/42c0d39c-cd12-4813-b81c-59fcdd98d0a7)
+![image](https://github.com/Kevinyym/DC-Motor-PID-Control/assets/101639215/26005199-d8f5-4325-bc04-f22d68b845f4)
 
