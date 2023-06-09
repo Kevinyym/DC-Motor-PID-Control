@@ -16,6 +16,23 @@
 - [x] 串口输出编码器的转速值，连接上位机图形化显示 
 ```Serial_Printf("Rps: %.2f\n", Rps); //串口输出转速，换行打印```
 - [ ] 待完成功能：Kp, Ki, Kd参数通过串口输入，而不用每次更改都编译和下载一遍
+- [x] 串口读取TT马达的目标转速，以达到转速可调的目的
+```
+/**
+  * @brief  从串口输入Rps目标转速，以达到马达的目标转速可调的目的
+  * @param  Target: 将当前的目标转速传入函数，如果串口没有输入将保持当前转速
+  * @retval Rps目标转速
+  */
+float Get_Rps(float Target) 
+{
+	if (Serial_RxFlag == 1) 
+	{
+		Target = atof(Serial_RxPacket); //使用库函数atof将字符串表示的浮点数转换为浮点数类型
+		Serial_RxFlag = 0;		
+	}
+	return Target;	
+}		
+```
 
 ### 2.4 旋转编码器PID控制电机速度
 - [x] 简单粗暴的控制方式，不能让转速稳定在3 round/sec
