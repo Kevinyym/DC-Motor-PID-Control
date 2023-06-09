@@ -71,5 +71,5 @@ float PID(float Rps, float Target)
 - [x] 带编码器TT马达（额定DC 6V，但为了简化电路，从ST-Link直接取5V电），编码器输出AB相接在PA6和PA7两个GPIO口
 
 ![截屏2023-05-25 下午9 26 11](https://github.com/Kevinyym/DC-Motor-PID-Control/assets/101639215/70501e9c-0ded-49f7-b84e-91fe3f6ec45b)
-
+![image](https://github.com/Kevinyym/DC-Motor-PID-Control/assets/101639215/30595a67-bdff-41ef-acb6-9667f9e5d8d1)
 ![截屏2023-05-25 下午9 29 18](https://github.com/Kevinyym/DC-Motor-PID-Control/assets/101639215/1a99db1c-61d8-4b7c-859d-89d0d5e69765)
